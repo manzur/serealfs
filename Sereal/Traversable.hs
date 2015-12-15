@@ -5,7 +5,7 @@ module Sereal.Traversable (
 ) where
 
 import Sereal.Types
-import Prelude hiding (lookup)
+import Prelude hiding (lookup, Traversable)
 
 class Traversable a where
     lookup :: SerealHashKey -> a -> Maybe SerealBody
