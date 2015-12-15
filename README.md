@@ -53,6 +53,8 @@ To install the project you need ghc and cabal installed on your system. Installa
 ### How to mount
 SerealFS works as a "presentation layer" over the directory with Sereal encoded files.
 So to use it you need to mount the `dir` with Sereal files in it you should execute:
+(MacOS users don't need to specify `-o nonempty`):
+
 ```
 serealfs dir -o nonempty
 ```
